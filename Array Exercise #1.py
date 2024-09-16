@@ -31,3 +31,7 @@ for i in range(len(exp)):
         print(answer_3)
 
 print("Did I spend exactly $2000 this month?", 2000 in exp)
+
+## answer #4:
+exp.append(1980)
+print("June expense added:", exp)
