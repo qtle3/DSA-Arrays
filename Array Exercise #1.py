@@ -19,8 +19,16 @@ exp = [2200, 2350, 2600, 2130, 2190]
 
 # answer #1:
 answer_1 = exp[1] - exp[0]
-print(answer_1)
+print("In Feb this much extra was spent comapared to Jan:", answer_1)
 
 # answer #2:
 answer_2 = exp[0] + exp[1] + exp[2]
-print(answer_2)
+print("Expense for first quarter:", answer_2)
+
+# answer #3:
+for i in range(len(exp)):
+    if exp[i] == 2000:
+        answer_3 = exp[i]
+        print(answer_3)
+
+print("Did I spend exactly $2000 this month?", 2000 in exp)
