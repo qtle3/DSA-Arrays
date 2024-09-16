@@ -35,3 +35,7 @@ print("Did I spend exactly $2000 this month?", 2000 in exp)
 ## answer #4:
 exp.append(1980)
 print("June expense added:", exp)
+
+# answer #5:
+exp[3] = exp[3] - 200
+print("Expenses after 200$ return in April:", exp)
