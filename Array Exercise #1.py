@@ -20,3 +20,7 @@ exp = [2200, 2350, 2600, 2130, 2190]
 # answer #1:
 answer_1 = exp[1] - exp[0]
 print(answer_1)
+
+# answer #2:
+answer_2 = exp[0] + exp[1] + exp[2]
+print(answer_2)
