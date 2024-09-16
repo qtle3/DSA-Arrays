@@ -17,6 +17,6 @@
 
 exp = [2200, 2350, 2600, 2130, 2190]
 
-# Answer #1:
+# answer #1:
 answer_1 = exp[1] - exp[0]
 print(answer_1)
