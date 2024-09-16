@@ -10,8 +10,7 @@
 # 2. Find out your total expense in first quarter (first three months) of the year.
 # 3. Find out if you spent exactly 2000 dollars in any month
 # 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
-# 5. You returned an item that you bought in a month of April and
-# got a refund of 200$. Make a correction to your monthly expense list
+# 5. You returned an item that you bought in a month of April and got a refund of 200$. Make a correction to your monthly expense list
 
 # Solution:
 
@@ -32,3 +31,11 @@ for i in range(len(exp)):
         print(answer_3)
 
 print("Did I spend exactly $2000 this month?", 2000 in exp)
+
+# answer #4:
+exp.append(1980)
+print("June expense added:", exp)
+
+# answer #5:
+exp[3] = exp[3] - 200
+print("Expenses after 200$ return in April:", exp)
