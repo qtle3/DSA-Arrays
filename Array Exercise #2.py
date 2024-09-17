@@ -17,3 +17,7 @@ heros = ["spider man", "thor", "hulk", "iron man", "captain america"]
 # answer #1:
 answer_1 = len(heros)
 print("length of list:", answer_1)
+
+# answer #2:
+heros.insert(3, "black panther")
+print("add 'black panther' after 'hulk'", heros)
