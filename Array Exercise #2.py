@@ -4,8 +4,7 @@
 
 # 1. Length of the list
 # 2. Add 'black panther' at the end of this list
-# 3. You realize that you need to add 'black panther' after 'hulk',
-#    so remove it from the list first and then add it after 'hulk'
+# 3. You realize that you need to add 'black panther' after 'hulk', so remove it from the list first and then add it after 'hulk'
 # 4. Now you don't like thor and hulk because they get angry easily :)
 #    So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
 #    Do that with one line of code.
@@ -19,5 +18,10 @@ answer_1 = len(heros)
 print("length of list:", answer_1)
 
 # answer #2:
+heros.append("black panther")
+print("Add 'black panther' at the end of this list", heros)
+
+# answer #3:
+heros.remove("black panther")
 heros.insert(3, "black panther")
-print("add 'black panther' after 'hulk'", heros)
+print("remove black panther and add 'black panther' after 'hulk'", heros)
