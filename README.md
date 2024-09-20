@@ -4,8 +4,8 @@ This repository contains three Python scripts focusing on basic data structures 
 
 ## Table of Contents
 
-1. [Monthly Expenses Script](#monthly-expenses-script)
-2. [Marvel Superheroes List Script](#marvel-superheroes-list-script)
-3. [Odd Numbers Generator Script](#odd-numbers-generator-script)
+1. [Monthly Expenses Script]
+2. [Marvel Superheroes List Script]
+3. [Odd Numbers Generator Script]
 
 ---
